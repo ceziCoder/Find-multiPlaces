@@ -1,0 +1,51 @@
+{
+  "name": "mapapp",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.8.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@mapbox/mapbox-gl-geocoder": "^5.0.1",
+    "@mapbox/search-js-react": "^1.0.0-beta.17",
+    "@mui/icons-material": "^5.14.3",
+    "@mui/material": "^5.14.4",
+    "@react-google-maps/api": "^2.19.2",
+    "@turf/turf": "^6.5.0",
+    "@types/mapbox-gl": "^2.7.12",
+    "axios": "^1.5.0",
+    "geojson": "^0.5.0",
+    "mapbox-gl": "^2.15.0",
+    "react": "^18.2.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-dom": "^18.2.0",
+    "react-draggable": "^4.4.5",
+    "react-icons": "^4.10.1",
+    "react-map-gl": "^7.1.5",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.5"
+  }
+}

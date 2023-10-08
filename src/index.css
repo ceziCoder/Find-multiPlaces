@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+
+@media (max-width: 768px) {
+  .draggable-disabled {
+    top: 10%; /* Adjust this value as needed */
+    pointer-events: none; /* Disable interaction on smaller screens */
+  }
+}
+
+
